@@ -285,3 +285,61 @@ align-items: center;
 .card-5{
        width: 360px;
 }
+#feature{
+    background-color: #1A0B2E;
+}
+.ee{
+    justify-content: center;
+    align-items: center;
+}
+
+.rr{
+    
+    color: #FFFFFF;
+    margin-top: 210px;
+    margin-bottom: 40px;
+
+  
+}
+.video-card{
+width: 1200px;
+margin-left: 360px;
+gap:40px;
+
+}
+.video-show{
+    /* margin-top:218px ; */
+    /* border: 2px solid wheat; */
+    width: 380px;
+    height: 440px;
+    background-color: #250D44;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px #230E3D;
+
+}
+.video-show iframe{
+    width: 380px;
+    height: 214px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.video-show h1{
+    color: #FFFFFF;
+    font-size: 24px;
+     margin-bottom: 12px;
+     margin-left: 24px;
+}
+.video-show p{
+    color: #FFFFFF;
+    font-size: 16px;
+     margin-bottom: 12px;
+     margin-left: 24px;
+}
+
+.video-show h5{
+color: #00FF88;
+font-size: 16px;
+line-height: 24px;
+margin-left: 24px;
+
+}
