@@ -7,6 +7,7 @@
 
 .display-flex{
  display: flex;
+
 }
 
 
@@ -26,9 +27,9 @@
     margin-left: 200px;
    
 }
-.color-g{
+ .color-g{
     color:#b312d3be;
-}
+} 
 
 .menu{
 
@@ -41,6 +42,7 @@ gap:32px ;
     text-decoration: none;
     list-style: none;
     text-align: center;
+   
       
 }
 .btn{
@@ -121,6 +123,12 @@ gap:32px ;
     margin-top: 36px;
    
 }
+.btn-1:hover{
+ color: #F7E93F;
+}
+.btn-0:hover{
+ color: #F7E93F;
+}
 .btn-1{
     width: 147px;
     height: 44px;
@@ -155,13 +163,13 @@ color: #00FF88;
 #about{
     background-color: #1A0B2E;
     height: 650px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
   
 }
 .main-dev{
     width: 1200px;
-    border: 1px solid red;
+    border: 1px solid #1A0B2E; 
     margin-left: 360px;
 }
 .about-container{
@@ -233,7 +241,7 @@ align-items: center;
 
 }
 .main-grid{
-    border: 1px solid aliceblue;
+   
     width: 1200px;
     height: 785px;
    margin-left: 360px;
@@ -287,6 +295,7 @@ align-items: center;
 }
 #feature{
     background-color: #1A0B2E;
+    height: 1276px;
 }
 .ee{
     justify-content: center;
@@ -305,6 +314,7 @@ align-items: center;
 width: 1200px;
 margin-left: 360px;
 gap:40px;
+
 
 }
 .video-show{
@@ -343,13 +353,27 @@ line-height: 24px;
 margin-left: 24px;
 
 }
-
+ 
+.dd{
+    justify-content: center;
+    align-items: center;
+}
+.gg{
+    padding-top: 120px ;
+    padding-bottom: 40px;
+    /* margin-bottom: 40px; */
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+}
 
 .meet{
     width: 1200px;
 margin-left: 360px;
 background-color: rgba(53, 17, 101, 0.4);
-margin-top: 218px;
+/* margin-top: 218px; */
+border-radius: 20px;
+
 }
 .host img{
 margin: 40px;
@@ -372,4 +396,56 @@ margin: 40px;
     margin: 0;
     margin-top: 16px;
    padding-left: 8px;
+}
+  
+
+
+.footer{
+  background-color: #1A0B2E;
+   background-image: url(../assets/footer-bg.png); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center; 
+
+}
+.last{
+
+height: 420px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.h{
+    color: #FFFFFF;
+}
+.m{
+       color:#b312d3be; 
+}
+.logo{
+margin-top: 32px;
+margin-bottom: 32px;
+   gap: 40px;
+}
+.copy{
+    color: #FFFFFF;
+}
+
+
+/* responsibe  */
+@media screen and (max-width:576px){
+   .display-flex{
+    flex-direction: column;
+   }
+   .manu-iteam ,.btn{
+    display: none;
+   }
+   .wave{
+    width: 440px;
+    height: 466px;
+   }
+  
+  #about{
+    flex-direction: column;
+  }
 }
