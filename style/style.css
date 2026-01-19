@@ -208,6 +208,19 @@ margin-top: 16px;
     width: 240px;
     
 }
+.parent{
+justify-content: center;
+align-items: center;
+}
+.it{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 600;
+   /* border:1px solid #00FF88; */
+   margin-top: 120px;
+   margin-bottom: 40px;
+    
+}
 .bnn{
     display: grid;
     color: #FFFFFF;
@@ -224,7 +237,7 @@ margin-top: 16px;
     width: 1200px;
     height: 785px;
    margin-left: 360px;
-  margin-top: 218px;
+  /* margin-top: 218px; */
  grid-row-gap: 40px;
  grid-column-gap: 40px;
 }
